@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() { //!Es un evento que s
         if (usuarioEncontrado) {
             alert("Inicio de sesión exitoso");
             localStorage.setItem("usuarioActivo", JSON.stringify(usuarioEncontrado)); // Guarda la sesión
-            window.location.href = "pagina principal.html"; // Redirige a la página de bienvenida o perfil
+            window.location.href = "index.html"; // Redirige a la página de bienvenida o perfil
         } else {
             alert("Correo o contraseña incorrectos.");
         }

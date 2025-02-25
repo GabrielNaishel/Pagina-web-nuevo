@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("registros").addEventListener("submit", function(event) {
         event.preventDefault();
         //obtener lo valores de los usuarios, "trim elemina los espacios en blanco"//
-        let nombre = document.getElementById("nombre").value.trim();
+        let nombre = document.getElementById("nombre").value.trim(); // la variable nombre va a ser igual a lo que el usuario ingregse a traves del ID
         let apellido = document.getElementById("apellido").value.trim();
         let correo = document.getElementById("correo").value.trim();
         let edad = parseInt(document.getElementById("edad").value.trim()); //"parseInt" la edad ingresada en numeros enteros//
