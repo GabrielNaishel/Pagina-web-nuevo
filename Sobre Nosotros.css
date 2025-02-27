@@ -61,6 +61,7 @@ body {
     background-image: url(./imagenes/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50%;
 
 }
 
