@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () { //!Es un evento que 
             "motorola": "celulares.html",
             "Samsung": "celulares.html",
             "samsung": "celulares.html",
+            "samsung galaxy": "Samsung Galaxy A25.html",
             "sillas": "sillas.html",
             "Sillas": "sillas.html",
             "Noblechair": "sillas.html",
